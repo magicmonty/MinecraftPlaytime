@@ -2,7 +2,8 @@ name: Playtime
 version: 1.0.0
 main: de.pagansoft.playtime.Main
 api-version: 1.15
-depend: [Vault, TitleAPI]
+depend: [Vault]
+softdepend: [TitleAPI]
 authors: [magicmonty]
 description: Limit the playtime of your players
 website: https://blog.pagansoft.de

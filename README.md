@@ -11,7 +11,8 @@ There are warnings at 10min, 5min, 1min, 30sec before the end of the play time a
 
 ## Dependencies
 
-- [TitleAPI](https://www.spigotmc.org/resources/titleapi-1-8-1-14-2.1325/), for showing nice titles
+- [Vault](https://www.spigotmc.org/resources/vault.34315/)
+- [TitleAPI](https://www.spigotmc.org/resources/titleapi-1-8-1-14-2.1325/) (optional) for showing nice titles
 
 ## Commands
 - `playtime` 
