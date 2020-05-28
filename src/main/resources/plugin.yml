@@ -1,0 +1,28 @@
+name: Playtime
+version: 1.0.0
+main: de.pagansoft.playtime.Main
+api-version: 1.15
+depend: [Vault, TitleAPI]
+authors: [magicmonty]
+description: Limit the playtime of your players
+website: https://blog.pagansoft.de
+prefix: Playtime
+commands:
+  playtime:
+    aliases: pt
+    usage: /playtime [<player>|<player> add <value>|<player> remove <value>|<player> reset]|reload]
+permissions:
+  playtime.premium:
+    default: false
+  playtime.infinite:
+    default: op
+  playtime.others:
+    default: op
+  playtime.admin:
+    default: op
+    children:
+      playtime.infinite: true
+      playtime.others: true
+  playtime.*:
+    children:
+      playtime.admin: true

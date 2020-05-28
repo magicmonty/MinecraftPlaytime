@@ -1,0 +1,7 @@
+playtime:
+  default:
+    hours: 1
+    minutes: 0
+  premium:
+    hours: 2
+    minutes: 0

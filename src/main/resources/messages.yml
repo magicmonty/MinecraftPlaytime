@@ -1,0 +1,28 @@
+kickMessage: '&cDeine Spielzeit für heute ist abgelaufen. Du darfst morgen wiederkommen!'
+wrongUsageLine1: '&cFehler! Bitte benutze das Kommando folgendermassen:'
+wrongUsageLine2: '&7&O/admintime <&6set&7/&6add&7/&6remove&7> <&6seconds&7> <&6minutes&7>
+  <&6hours&7> <&6Player&7>'
+playtimeSetMessage: '&aDie Spielzeit von &b{Player} &awurde auf &7{hours}h &a, &7{minutes}min
+  &aund &7{seconds}s &a gesetzt!'
+playtimeAddMessage: '&aDie Spielzeit von &b{Player} &awurde um &7{hours}h &a, &7{minutes}min
+  &aund &7{seconds}s erhöht &aund ist jetzt &7{total_hours}h &a, &7{total_minutes}min
+  &aund &7{total_seconds}s&a!'
+playtimeRemoveMessage: '&aDie Spielzeit von &b{Player} &awurde um &7{hours}h&a, &7{minutes}min
+  &aund &7{seconds}s verringert &aund ist jetzt &7{total_hours}h &a, &7{total_minutes}min
+  &aund &7{total_seconds}s&a!'
+neverOnlineError: '&cDieser Spieler war noch nicht online!'
+playtimeEndsSeconds: '&7Deine Spielzeit endet in &6{seconds} Sekunden&7!'
+playtimeEndsMinutes: '&7Deine Spielzeit endet in &6{minutes} Minuten&7!'
+playtimeEndsTitle: '&7Deine Spielzeit endet bald&7!'
+playtimeLeftTitle: '&7Willkommen in Gondria&7!'
+leftTimeUnlimited: '&7Du kannst spielen, solange du möchtest!'
+leftTimeUnlimitedOther: '&6{Player} &7kann spielen solange er möchte!'
+leftTime: '&7Du hast &6{hours} Stunde(n)&7, &6{minutes} Minuten &7und &6{seconds}
+  Sekunden &7 Spielzeit für heute übrig!'
+leftTimeOther: '&6{Player} &7hat &6{hours}h&7, &6{minutes}min &7und &6{seconds}s &7Spielzeit
+  für heute übrig!'
+noPermission: '&7Du hast keine Berechtigung, dieses Kommando auszuführen!'
+playerIsOffline: '&7Dieser Spieler ist offline!'
+unknownCommand: '&7Unbekanntes Kommando'
+cannotChange: '&6{Player} &7kann bereits unbegrenzt spielen.'
+noTimeValue: '&7Das letzte Argument ist kein Zeit-Wert (z.B 1h oder 10m)'
